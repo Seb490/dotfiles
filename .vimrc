@@ -11,7 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 " enter desired plugins below
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
-
+Plugin 'tpope/vim-fugitive'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -42,4 +42,20 @@ set number
 set ruler
 " enable 256 color terminal
 set term=screen-256color
+
+"====== Key Mappings ======
+
+" Unmap the arrow keys
+no <down> <Nop>
+no <left> <Nop>
+no <right> <Nop>
+no <up> <Nop> 
+ino <down> <Nop>
+ino <left> <Nop>
+ino <right> <Nop>
+ino <up> <Nop>
+vno <down> <Nop>
+vno <left> <Nop>
+vno <right> <Nop>
+vno <up> <Nop>
 
