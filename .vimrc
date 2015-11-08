@@ -8,10 +8,11 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-" enter desired plugins below
+" Enter desired plugins below
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fireplace'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -32,6 +33,8 @@ set timeoutlen=50
 color molokai
 " enables syntax highlighting
 syntax enable
+" disable mode indicator
+set noshowmode
 " enables highlighting for the line on which the cursor is on
 set cursorline
 " show the executed command
