@@ -45,6 +45,10 @@ set number
 set ruler
 " enable 256 color terminal
 set term=screen-256color
+" enable incremental search
+set incsearch
+" enable search search result highlighting
+set hlsearch
 
 "====== Key Mappings ======
 
@@ -62,3 +66,11 @@ vno <left> <Nop>
 vno <right> <Nop>
 vno <up> <Nop>
 
+"Remapping of ö,ä,ü & ß to make the german keyboard more programmer friendly
+ino ö (
+ino ä )
+ino Ö {
+ino Ä }
+ino ß [
+ino ü ]
+ino Ü \
