@@ -33,6 +33,8 @@ set timeoutlen=50
 color molokai
 " enables syntax highlighting
 syntax enable
+" enable omni-completion
+set omnifunc=syntaxcomplete#Complete
 " disable mode indicator
 set noshowmode
 " enables highlighting for the line on which the cursor is on
