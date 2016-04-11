@@ -35,6 +35,8 @@ color molokai
 syntax enable
 " enable omni-completion
 set omnifunc=syntaxcomplete#Complete
+" Close autocomplete window when done
+autocmd CompleteDone * pclose
 " disable mode indicator
 set noshowmode
 " enables highlighting for the line on which the cursor is on
