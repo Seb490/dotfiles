@@ -7,6 +7,9 @@ autoload -U compinit promptinit
 compinit
 promptinit
 
+# Enable vi key bindings
+bindkey -v
+
 # This will set the default prompt to the adam2 theme
 prompt adam2 white green white white
 
