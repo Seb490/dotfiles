@@ -30,6 +30,8 @@ set timeoutlen=50
 
 "====== General Settings ======
 
+" set the proper encoding
+set encoding=utf-8
 " set the color settings
 color molokai
 " enables syntax highlighting
@@ -54,6 +56,18 @@ set term=screen-256color
 set incsearch
 " enable search search result highlighting
 set hlsearch
+
+"====== Python Configuration ======
+
+" Set Python PEP8 Indentation
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
 
 "====== Key Mappings ======
 
