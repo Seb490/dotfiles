@@ -9,24 +9,12 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 " Enter desired plugins below
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-fireplace'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 "====== Plugin Configuration ======
 
-" vim-airline config
-let g:airline_powerline_fonts = 0
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-let g:airline_theme='molokai'
-set laststatus=2
-set timeoutlen=50
 
 "====== General Settings ======
 
@@ -40,8 +28,6 @@ syntax enable
 set omnifunc=syntaxcomplete#Complete
 " Close autocomplete window when done
 autocmd CompleteDone * pclose
-" disable mode indicator
-set noshowmode
 " enables highlighting for the line on which the cursor is on
 set cursorline
 " show the executed command
