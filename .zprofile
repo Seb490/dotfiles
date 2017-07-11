@@ -1,7 +1,7 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
 	# Setting up Go
 	export GOROOT=/usr/local/opt/go/libexec
-	export GOPATH=$HOME/dev/golang
+	export GOPATH=$HOME/dev/go
 	export PATH=$PATH:$GOROOT/bin
 	export PATH=$PATH:$GOPATH/bin
 	# Setting up Java
