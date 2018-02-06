@@ -8,3 +8,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 	# export JAVA_HOME=$(/usr/libexec/java_home) 
 fi
 
+if [[ "$OSTYPE" == "linux"* ]]; then
+	export PATH=$PATH:/usr/local/go/bin
+	export PATH=$PATH:$HOME/go/bin
+fi
