@@ -9,8 +9,11 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 if [[ "$OSTYPE" == "linux"* ]]; then
-	export GOROOT=/usr/local/go
-	export GOPATH=$HOME/go
-	export PATH=$PATH:$GOROOT/bin
-	export PATH=$PATH:$GOPATH/bin
+	export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+	export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
+	export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
+	export GOROOT="/home/linuxbrew/.linuxbrew/opt/go/libexec"
+	export GOPATH="$HOME/go"
+	export PATH="$PATH:$GOROOT/bin"
+	export PATH="$PATH:$GOPATH/bin"
 fi
