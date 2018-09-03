@@ -17,4 +17,9 @@ if [[ "$OSTYPE" == "linux"* ]]; then
 	export GOPATH="$HOME/go"
 	export PATH="$PATH:$GOROOT/bin"
 	export PATH="$PATH:$GOPATH/bin"
+	# Setting up Java
+	export JAVA_V8="/usr/lib/jvm/java-8-openjdk-amd64"
+	export JAVA_V11="/usr/lib/jvm/java-11-openjdk-amd64"
+	#export JAVA_HOME=$JAVA_V11
+	export JAVA_HOME=$JAVA_V8
 fi
