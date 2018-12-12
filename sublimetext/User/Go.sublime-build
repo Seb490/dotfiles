@@ -1,0 +1,32 @@
+{
+	"cmd": ["go", "version"],
+    "selector": "source.go",
+    "file_patterns": ["*.go"],
+    "variants": 
+    [
+    	{
+        	"name": "Run file",
+        	"cmd": ["go", "run", "$file"]
+    	},
+		
+		{
+        	"name": "Build package",
+        	"cmd": ["go", "build", "$file_path"]
+    	},
+
+    	{
+        	"name": "Clean package",
+        	"cmd": ["go", "clean"]
+    	},
+
+    	{
+        	"name": "Fmt package",
+        	"cmd": ["go", "fmt", "$file_path"]
+    	},
+
+    	{
+        	"name": "Vet package",
+        	"cmd": ["go", "vet", "$file_path"]
+    	}
+	],
+}

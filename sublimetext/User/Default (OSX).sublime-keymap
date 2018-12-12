@@ -1,0 +1,9 @@
+[
+	{ "keys": ["ö"], "command": "insert", "args": {"characters": "("} },	
+	{ "keys": ["ä"], "command": "insert", "args": {"characters": ")"} },	
+	{ "keys": ["Ö"], "command": "insert", "args": {"characters": "{"} },	
+	{ "keys": ["Ä"], "command": "insert", "args": {"characters": "}"} },	
+	{ "keys": ["ß"], "command": "insert", "args": {"characters": "["} },	
+	{ "keys": ["ü"], "command": "insert", "args": {"characters": "]"} },	
+	{ "keys": ["Ü"], "command": "insert", "args": {"characters": "\\"} }	
+]
