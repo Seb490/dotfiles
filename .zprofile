@@ -5,8 +5,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 	export PATH=$PATH:$GOROOT/bin
 	export PATH=$PATH:$GOPATH/bin
 	# Setting up Java
-	#export JAVA_HOME=$(/usr/libexec/java_home -v 10) 
-	export JAVA_HOME=$(/usr/libexec/java_home -v 1.8) 
+	export JAVA_V8=$(/usr/libexec/java_home -v 1.8) 
+	export JAVA_CV=$(/usr/libexec/java_home) 
+	#export JAVA_HOME=$JAVA_CV
+	export JAVA_HOME=$JAVA_V8
 fi
 
 if [[ "$OSTYPE" == "linux"* ]]; then
