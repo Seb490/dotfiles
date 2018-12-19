@@ -3,6 +3,9 @@
 # Install git, vim, zsh, curl
 sudo apt-get install git vim zsh curl
 
+# Set vim as the default editor
+ sudo update-alternatives --set editor /usr/bin/vim.basic
+
 # Install linuxbrew
 sh -c "$(curl -fsSL  https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
