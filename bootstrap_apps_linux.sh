@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Install git, vim, zsh, curl
-sudo apt-get install git vim zsh curl
+# Install basic tools
+sudo apt-get install git vim zsh curl htop
 
 # Set vim as the default editor
  sudo update-alternatives --set editor /usr/bin/vim.basic
@@ -24,4 +24,4 @@ sudo apt-get update
 sudo apt-get install sublime-text
 
 # Install VS Code
-sudo snap install vscode --classic
+#sudo snap install vscode --classic
