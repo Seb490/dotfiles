@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Install basic tools
-sudo apt-get install git vim zsh curl htop
+sudo apt-get install git vim zsh curl htop sox build-essential
 
 # Set vim as the default editor
- sudo update-alternatives --set editor /usr/bin/vim.basic
+sudo update-alternatives --set editor /usr/bin/vim.basic
 
 # Install linuxbrew
 sh -c "$(curl -fsSL  https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
