@@ -20,7 +20,7 @@ autocmd CompleteDone * pclose
 set cursorline
 
 " show the executed command
-"set showcmd
+set showcmd
 
 " show line numbers with relative numbering
 set number
@@ -29,14 +29,17 @@ set relativenumber
 " Status line configuration
 set laststatus=2	" Always use a status line
 " Build up the status line
-set statusline=%f         " Path to the file
-set statusline+=\ -\      " Separator
-set statusline+=FileType: " Label
-set statusline+=%y        " Filetype of the file
+set statusline=\ %y\      " Filetype of the file
+set statusline+=%F        " Path to the file
+
 set statusline+=%=        " Switch to the right side
-set statusline+=%l        " Current line
+set statusline+=%03.c\ 	  " Current column
+set statusline+=%02.p%%	  " Percentage through file in lines
+set statusline+=\ 	  " Separator 
+set statusline+=%03.l     " Current line
 set statusline+=/         " Separator
-set statusline+=%L        " Total lines
+set statusline+=%03.L     " Total lines
+set statusline+=\         " Separator
 
 " Enables the ruler to show line number, collum number and document position
 "set ruler
