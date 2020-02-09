@@ -78,11 +78,13 @@ case "$OSTYPE" in
 	       	alias ls='ls -GFh';
 	       	alias la='ls -GFha';
 	       	alias ll='ls -GFhla';
-	       	alias java_home='/usr/libexec/java_home';;
+	       	alias java_home='/usr/libexec/java_home';
+		alias v='vim';;
 	linux*)
 		alias ls='ls --color=auto -Fh';
 		alias la='ls --color=auto -Fha';
-		alias ll='ls --color=auto -Fhla';;
+		alias ll='ls --color=auto -Fhla';
+		alias v='vim';;
 	*)
 		;;
 esac
