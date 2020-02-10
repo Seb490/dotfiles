@@ -1,5 +1,10 @@
-
 "====== General Settings ======
+
+" disable vi compatibility mode
+set nocompatible
+
+" Move viminfo into the cache folder
+set viminfo+=n~/.cache/vim/viminfo
 
 " set the proper encoding
 set encoding=utf-8
