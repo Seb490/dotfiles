@@ -9,11 +9,16 @@ set viminfo+=n~/.cache/vim/viminfo
 " set the proper encoding
 set encoding=utf-8
 
-" set the color settings
-color molokai
-
 " enables syntax highlighting
 syntax enable
+
+" set the color settings
+let g:molokai_original = 1
+color molokai
+"set background=dark
+"let g:solarized_termcolors=256
+"colorscheme solarized
+"colorscheme tango
 
 " enable omni-completion
 set omnifunc=syntaxcomplete#Complete
