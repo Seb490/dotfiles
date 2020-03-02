@@ -20,7 +20,7 @@ if [[ "$OSTYPE" == "linux"* ]]; then
 
 	# Setting up Go
 	export GOROOT="/home/linuxbrew/.linuxbrew/opt/go/libexec"
-	export GOPATH="$HOME/go"
+	export GOPATH="$HOME/Code/go"
 	export PATH="$PATH:$GOROOT/bin"
 	export PATH="$PATH:$GOPATH/bin"
 
