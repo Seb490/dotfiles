@@ -63,6 +63,12 @@ set incsearch
 " enable search search result highlighting
 set hlsearch
 
+"====== Plugin Configuration ======
+
+" vim-go plugin 
+let g:go_def_mode='gopls'	" use go please for language support
+let g:go_info_mode='gopls'
+
 "====== Key Mappings ======
 
 " map {lhs} to {rhs} in Normal and Visual mode
