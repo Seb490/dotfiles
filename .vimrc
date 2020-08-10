@@ -13,8 +13,9 @@ set encoding=utf-8
 syntax enable
 
 " set the color settings
-let g:molokai_original = 1
-color molokai
+colorscheme nord
+"let g:molokai_original = 1
+"color molokai
 "set background=dark
 "let g:solarized_termcolors=256
 "colorscheme solarized
@@ -55,7 +56,7 @@ set statusline+=\         " Separator
 "set ruler
 
 " enable 256 color terminal
-set term=screen-256color
+"set term=screen-256color
 
 " enable incremental search
 set incsearch
