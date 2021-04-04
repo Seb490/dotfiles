@@ -36,7 +36,7 @@ prompt adam2 white green white white
 
 # Make the color of the cursor green, when you are in an interactive shell
 if [[ $- == *i* ]]; then
-       	echo -ne "\e]12;#4E9A06\a" 
+       	echo -ne "\e]12;#A3BE8C\a" 
 fi
 
 # Enable vi key bindings

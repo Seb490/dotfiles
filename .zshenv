@@ -15,12 +15,12 @@ fi
 
 if [[ "$OSTYPE" == "linux"* ]]; then
 
-	# Setting up linuxbrew
-	eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+	# Setting up linuxbrew (deprecated)
+#	eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 	# Setting up Go
-	export GOROOT="/home/linuxbrew/.linuxbrew/opt/go/libexec"
-	export GOPATH="$HOME/Code/go"
+	export GOROOT="$HOME/code/goroot"
+	export GOPATH="$HOME/code/go"
 	export PATH="$PATH:$GOROOT/bin"
 	export PATH="$PATH:$GOPATH/bin"
 
